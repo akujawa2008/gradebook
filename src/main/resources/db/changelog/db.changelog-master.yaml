@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/202310021200-gradebook-create-table.yaml
+  - include:
+      file: db/changelog/202310021400-gradebook-add-initial-values.yaml
+  - include:
+      file: db/changelog/202310021500-gradebook-add-initial-users.yaml

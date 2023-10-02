@@ -1,0 +1,17 @@
+### Requirements:
+* Java OpenJDK version 11.0.2 (https://jdk.java.net/archive/)
+* Maven version >= 3.8.1 (https://maven.apache.org/download.cgi)
+
+Configuration for PgAdmin:
+Host: `localhost:5432`
+
+Add new server, connection:
+Host: `szu_postgres`
+Maintenance database: `gradebook`
+Username: `user` / from properties file
+Password: `user123` / from properties file
+
+Swagger:
+http://localhost:8080/swagger-ui/index.html
+
+### All initial users have password set the same as their username.

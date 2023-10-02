@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 202310021200-gradebook-create-table
+      author: akujawa
+      description: alter table gradebook
+      changes:
+        - sqlFile:
+            path: "db/changelog/202310021200-gradebook-create-table.sql"
+            dbms: "h2, postgresql"
+            encoding: UTF-8
+            endDelimiter: ;
+            splitStatements: true
+            stripComments: false

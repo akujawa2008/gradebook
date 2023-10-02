@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 202310021400-gradebook-add-initial-users
+      author: akujawa
+      description: add initial values
+      changes:
+        - sqlFile:
+            path: "db/changelog/202310021500-gradebook-add-initial-users.sql"
+            dbms: "h2, postgresql"
+            encoding: UTF-8
+            endDelimiter: ;
+            splitStatements: true
+            stripComments: false
